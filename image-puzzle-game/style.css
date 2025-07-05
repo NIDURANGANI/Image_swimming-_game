@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.puzzle {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 2px;
+  margin: 20px auto;
+}
+
+.tile {
+  width: 150px;
+  height: 150px;
+  background-size: 450px 450px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.empty {
+  background: #567;
+  cursor: default;
+}
+
+.controls {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.upload {
+  margin: 10px 0;
+}
+
+
+/* Full page centering */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Puzzle layout */
+.puzzle {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 2px;
+  margin: 20px auto;
+}
+
+/* Puzzle tile */
+.tile {
+  width: 150px;
+  height: 150px;
+  background-size: 450px 450px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Empty tile style */
+.empty {
+  background: #567;
+  cursor: default;
+}
+
+/* Controls under puzzle */
+.controls {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Image upload input */
+.upload {
+  margin: 10px 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #c3ecf2, #f9f5ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
