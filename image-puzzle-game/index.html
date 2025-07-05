@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8" />
+  <title>🧩 රූපය පිහිනුම</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🖼️ රූපය පිහිනුම් ක්‍රීඩාව</h1>
+  <div class="upload">
+    <label>ඔබේ රූපය උඩුගත කරන්න: <input type="file" id="uploadImage" accept="image/*" /></label>
+  </div>
+  <div class="game-container">
+    <div id="puzzle" class="puzzle"></div>
+  </div>
+  <div class="controls">
+    <button onclick="shuffleTiles()">🔀 ආරම්භය</button>
+    <span>චලනයන්: <span id="moveCounter">0</span></span>
+    <span>⏱️ වේලාව: <span id="timer">0</span>s</span>
+  </div>
+  <audio id="bg-music" autoplay loop>
+    <source src="music.mp3" type="audio/mpeg" />
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
